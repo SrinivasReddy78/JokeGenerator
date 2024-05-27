@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Saira" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Random Joke Generator</h1>
+        <div class="box">
+            <div class="type">
+                <div class="type-select" id="type-1">Both</div>
+                <div class="type-select" id="type-2">Single</div>
+                <div class="type-select" id="type-3">Two Part</div>
+            </div>
+            <!-- <select class="lang">
+                <option value="" selected disabled hidden>Select Language</option>
+            </select> -->
+        </div>
+        <div class="category">
+            <h2>Categories</h2>
+            <div class="cat-type">
+                <div class="any">
+                    <button id="cat-btn">Any</button>
+                </div>
+                <hr width="75%" size="2px" color="#162837" noshade="noshade">
+                <div class="custom">
+                    <button id="cat-btn">Misc</button>
+                    <button id="cat-btn">Programming</button>
+                    <button id="cat-btn">Dark</button>
+                    <button id="cat-btn">Pun</button>
+                    <button id="cat-btn">Spooky</button>
+                    <button id="cat-btn">Christmas</button>
+                </div>
+            </div>
+        </div>
+        <div class="displayer">
+            <div class="saved-jokes">Saved Jokes</div>
+            <div class="save">
+                <span>Save Joke</span>
+                <i class="ri-heart-3-fill"></i>
+            </div>
+            <p class="warning">The joke is already been saved by you.</p>
+            <div class="joke-displayer">
+            </div>
+        </div>
+        <div class="generate">
+            <button>Generate</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <span class="close">X</span>
+        <div class="card-wrapper">
+            <div class="cards">
+                <!-- <div class="card">
+                    <div class="head">
+                        <div class="number">1</div>
+                        <div class="joke-id">Joke ID : <span>45</span></div>
+                    </div>
+                    <div class="joke-type">Joke Type : <span>Both</span></div>
+                    <div class="joke-category">Category : <span>Programming</span></div>
+                    <div class="joke-place"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, nihil?</p></div>
+                    <div class="delete">Delete</div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="overlay"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
